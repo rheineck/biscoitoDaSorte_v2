@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-body: linear-gradient(45deg, #190361, #bb00ff);
+  --bg-button: hsl(35, 100%, 50%);
+  --bg-message: hsl(198, 32%, 92%);
+
+  --font-color: hsl(238, 27%, 28%);
+  --light: hsl(0, 0%, 100%);
+
+  --font-title: "Montserrat", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-message: "Dancing Script";
+}
+
+img {
+  max-width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background: var(--bg-body);
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
+}
